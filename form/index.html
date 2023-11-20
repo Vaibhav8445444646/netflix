@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <fieldset>
+        <legend>Personal Details</legend>
+    <form>
+      <label for="fname">FirstName</label>
+      <input type="text" name="firstName " id="fname" />
+      <br /><br />
+      <label for="middlename">Middlename</label>
+      <input type="text" name="middlename " id="middlename" />
+      <br /><br />
+      <label for="lastname">Lastname</label>
+      <input type="text" name="lastname " id="lastname" />
+      <br /><br />
+      <label for="course">Course :</label>
+      <select name="" id="course">
+        <option value="">Course</option>
+        <option value="">Mtech</option>
+        <option value="">Btech</option>
+        <option value="">MBA</option>
+        <option value="">Mca</option>
+        <option value="">BBA</option>
+      </select>
+      <br /><br />
+      <label for="gender">Gender</label>
+      <br />
+      <input type="radio" name="gender" id="male" />
+      <label for="male">Male</label>
+      <br />
+      <input type="radio" name="gender" id="female" />
+      <label for="female">Female</label>
+      <br />
+      <input type="radio" name="gender" id="other" />
+      <label for="others">Others</label>
+      <br /><br />
+      <label for="dob">DOB</label>
+      <input type="datetime-local" name="" id="dob" />
+      <br />
+      <label for="">Phone</label>
+      <input
+        type="text"
+        name=""
+        id="phone"
+        placeholder="+91"
+        disabled
+        required
+        size="3"
+      />
+      <input type="text" name="" id="phone" size="10" maxlength="10" />
+      <br /><br />
+      <label for="address">Address</label><br />
+      <textarea name="" id="address" cols=40" rows="5"></textarea>
+      <br><br>
+      <label for="email">Email:</label>
+      <input type="email" name="" id="email" required placeholder="vabbisht219@gmail.com">
+      <br><br><br>
+      <label for="password">Password</label>
+      <input type="password" name="" id="password">
+      <br><br>
+      <label for="repassword">Re-Password</label>
+      <input type="password" name="" id="repassword">
+      <br><br>
+      <input type="checkbox" name="" id="terms">
+      <label for="terms">Agree To Terms and Conditions</label>
+      <br><br>
+      <label for="choose_file">Choose File :</label>
+      <input type="file" name="Choose file" id="choose_file">
+      <br><br>
+      <label for="color">Choose Colour</label>
+      <input type="color" name="" id="color">
+      <br><br>
+      <input type="reset" value="Reset">
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
